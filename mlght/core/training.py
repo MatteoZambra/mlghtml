@@ -541,7 +541,6 @@ class Trainer:
         
         Parameters
         ----------
-        
         X : pandas.DataFrame
             Input data.
         y : pandas.DataFrame
@@ -551,11 +550,7 @@ class Trainer:
         
         Returns
         -------
-        
-        pwp : numpy.ndarray
-            Array with as many elements as the runs. Each element is the percentage
-            of the predictions that are within the selected :math:`\Delta E_{cmc}`
-            threshold. It is returned only if ``runs`` is larger than one.
+        None.
         
         """
         # Initialize performances data structure
@@ -1005,7 +1000,6 @@ class Trainer:
         
         Parameters
         ----------
-        
         metrics : list of pandas.DataFrame
             A list with the metrics tables for each run.
         print_metrics : bool, optional
