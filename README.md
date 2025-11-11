@@ -57,7 +57,7 @@ X, y = get_data()
 Xtrain, ytrain, Xtest, ytest = train_test_split(X, y, test_size = 0.25)
 
 # --- Instantiate the trainer
-# `mvreg.training.Trainer` is the core class of the framework.
+# `mlght.core.training.Trainer` is the core class of the framework.
 trainer = Trainer(
     base_estimator    = LinearRegression,            # Regressor, NOT instantiated!
     estimator_name    = "LinearRegression",          # Name of the estimator
